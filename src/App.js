@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
