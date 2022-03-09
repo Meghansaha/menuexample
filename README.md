@@ -1,6 +1,41 @@
-# ReactJS Menu Project
+# Getting Started
+
+Follow these steps to get started.
+
+1. Install NodeJS. NodeJS Download [https://nodejs.org/en/download/]
+
+2. From terminal or powershell create a new React project with "npx create-react-app testMenuApp"
+
+3. Install the React libraries with "npm install react-icons react-router-dom"
+
+4. Install es7 React/Redux plugin. The plugin is optional. It has a bunch of short cuts for React that make things easier
+
+5. In VSCode create two folders under src folder: components and pages
+
+6. Create three files in components folder named Navbar.js, Navbar.css and NavbarData.js
+
+7. Copy and paste the contents for each of the files from the Github repository src/components/
+
+8. Create 4 pages in pages folder: Home.js, Contact.js, Inbox.js, Search.js
+
+9. Open App.js and delete the lines between return ()
+
+10. Copy and paste lines 12-21 from the App.js example on github in your App.js
+
+11. Save the changes and refresh your browser. You should see a hamburger menu in the upper left corner
+
+
+## ReactJS Menu Project
 
 This repo shows how to build a simple menu in ReactJS using router and components. Router is using to control which page is shown. Each page is a basic React component.
+
+### React Router
+
+To learn more about Router [https://reactrouter.com/]
+
+### React Component
+
+To learn more about Components [https://reactjs.org/docs/react-component.html]
 
 ## About the project
 
@@ -16,23 +51,19 @@ This repo shows how to build a simple menu in ReactJS using router and component
 
 6. If you want to use a newer version of React, look at the compile errors and update the javascript to use the latest API. I recommend trying it to see how React has evolved over time. If you ever have to update older websites built with older versions of React, it will be good to know the differences. 
 
-## Setting up project
+### About NodeJS
 
-Before you can run the project on your system, you will need to install some React libraries. It assumes you have NodeJS installed on your system. If you don't have NodeJS installed, please do that first.
+What is node? [https://www.youtube.com/watch?v=uVwtVBpw7RQ]
 
-[https://nodejs.org/en/download/] NodeJS download
+### Useful VSCode extension for React
 
-### Manual Install
+I recommend installing es7 React/Redux plugin for VSCode.
 
-1. npm install react-icons
+1. click on the extension icon on the left
 
-2. npm install react-router-dom
+2. in the search box enter "dsznajder" to find the plugin by the author
 
-### Easy Install
-
-1. copy the dependencies in project.json
-
-2. npm install
+3. select the plugin and click install
 
 
 ## Running the project
